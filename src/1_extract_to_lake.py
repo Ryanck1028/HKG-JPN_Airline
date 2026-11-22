@@ -3,12 +3,11 @@ import json
 import os
 import random
 import time
-from fast_flights import FlightData, Passengers, Result, get_flights
+from fast_flights import FlightQuery, Passengers, create_query, get_flights
 
 ORIGIN = "HKG"
 DESTINATIONS = ["NRT", "HND", "KIX", "CTS", "FUK"]
-LEAD_DAYS = [1, 3, 7, 14, 21, 30, 45, 60, 90]
-
+LEAD_DAYS =
 
 HKT = timezone(timedelta(hours=8))
 now_hkt = datetime.now(HKT)
@@ -17,23 +16,38 @@ scrape_date = now_hkt.strftime("%Y-%m-%d")
 lake_records = []
 total_flights_found = 0
 
+
+def serialize_flight(flight_obj):
+  """相容 Pydantic 模型或一般物件的序列化轉字典"""
+  if hasattr(flight_obj, "model_dump"):
+    return flight_obj.model_dump()
+  elif hasattr(flight_obj, "dict"):
+    return flight_obj.dict()
+  elif hasattr(flight_obj, "__dict__"):
+    return vars(flight_obj)
+  return str(flight_obj)
+
+
 print(f"=== [Step 1] 開始擷取原始數據至 Data Lake ({scrape_date} HKT) ===")
 
 for dest in DESTINATIONS:
   for days in LEAD_DAYS:
     target_date = (now_hkt + timedelta(days=days)).strftime("%Y-%m-%d")
     try:
-      result: Result = get_flights(
-          flight_data=[
-              FlightData(date=target_date, from_airport=ORIGIN, to_airport=dest)
+      # 使用 fast-flights v3 最新語法建立查詢
+      query = create_query(
+          flights=[
+              FlightQuery(date=target_date, from_airport=ORIGIN, to_airport=dest)
           ],
           trip="one-way",
           seat="economy",
           passengers=Passengers(adults=1),
-          fetch_mode="fallback",
       )
+      result = get_flights(query)
 
-      flights_list = [vars(f) for f in result.flights]
+      # 相容 result 直接是 list 或帶有 .flights 屬性的回傳結構
+      raw_items = getattr(result, "flights", result) or []
+      flights_list = [serialize_flight(f) for f in raw_items]
       total_flights_found += len(flights_list)
 
       lake_records.append({
@@ -61,7 +75,7 @@ lake_path = f"data/lake/{scrape_date}.json"
 
 if total_flights_found > 0:
   with open(lake_path, "w", encoding="utf-8") as f:
-    json.dump(lake_records, f, ensure_ascii=False, indent=2)
+    json.dump(lake_records, f, ensure_ascii=False, indent=2, default=str)
   print(
       f"[Data Lake] 寫入成功！共 {total_flights_found} 筆航班快照已儲存至"
       f" {lake_path}"
