@@ -7,7 +7,8 @@ from fast_flights import FlightQuery, Passengers, create_query, get_flights
 
 ORIGIN = "HKG"
 DESTINATIONS = ["NRT", "HND", "KIX", "CTS", "FUK"]
-LEAD_DAYS =
+LEAD_DAYS = [1, 3, 7, 14, 21, 30, 45, 60, 90]
+
 
 HKT = timezone(timedelta(hours=8))
 now_hkt = datetime.now(HKT)
