@@ -1,0 +1,629 @@
+[
+  {
+    "meta": {
+      "scrape_date": "2026-11-22",
+      "scrape_timestamp": "2026-11-22T21:42:32.381890+08:00",
+      "origin": "HKG",
+      "destination": "HND",
+      "departure_date": "2026-11-25",
+      "days_left": 3,
+      "price_level": null
+    },
+    "raw_flights": [
+      {
+        "type": "BR",
+        "price": 227,
+        "airlines": [
+          "EVA Air"
+        ],
+        "flights": [
+          "SingleFlight(from_airport=Airport(name='Hong Kong International Airport', code='HKG'), to_airport=Airport(name='Taiwan Taoyuan International Airport', code='TPE'), departure=SimpleDatetime(date=(2026, 11, 25), time=(10, 10)), arrival=SimpleDatetime(date=(2026, 11, 25), time=(12, 0)), duration=110, plane_type='Boeing 787-10')",
+          "SingleFlight(from_airport=Airport(name='Taipei Songshan Airport', code='TSA'), to_airport=Airport(name='Haneda Airport', code='HND'), departure=SimpleDatetime(date=(2026, 11, 25), time=(16, 30)), arrival=SimpleDatetime(date=(2026, 11, 25), time=(20, 20)), duration=170, plane_type='Boeing 787-10')"
+        ],
+        "carbon": "CarbonEmission(typical_on_route=230000, emission=215000)"
+      },
+      {
+        "type": "UO",
+        "price": 354,
+        "airlines": [
+          "Hong Kong Express"
+        ],
+        "flights": [
+          "SingleFlight(from_airport=Airport(name='Hong Kong International Airport', code='HKG'), to_airport=Airport(name='Haneda Airport', code='HND'), departure=SimpleDatetime(date=(2026, 11, 25), time=(23, 55)), arrival=SimpleDatetime(date=(2026, 11, 26), time=(4, 45)), duration=230, plane_type='Airbus A321neo')"
+        ],
+        "carbon": "CarbonEmission(typical_on_route=230000, emission=186000)"
+      },
+      {
+        "type": "PR",
+        "price": 396,
+        "airlines": [
+          "Philippine Airlines"
+        ],
+        "flights": [
+          "SingleFlight(from_airport=Airport(name='Hong Kong International Airport', code='HKG'), to_airport=Airport(name='Ninoy Aquino International Airport', code='MNL'), departure=SimpleDatetime(date=(2026, 11, 25), time=(13, 30)), arrival=SimpleDatetime(date=(2026, 11, 25), time=(15, 35)), duration=125, plane_type='Airbus A330')",
+          "SingleFlight(from_airport=Airport(name='Ninoy Aquino International Airport', code='MNL'), to_airport=Airport(name='Haneda Airport', code='HND'), departure=SimpleDatetime(date=(2026, 11, 25), time=(19, 10)), arrival=SimpleDatetime(date=(2026, 11, 26), time=(0, 15)), duration=245, plane_type='Airbus A321')"
+        ],
+        "carbon": "CarbonEmission(typical_on_route=230000, emission=403000)"
+      },
+      {
+        "type": "NH",
+        "price": 709,
+        "airlines": [
+          "ANA"
+        ],
+        "flights": [
+          "SingleFlight(from_airport=Airport(name='Hong Kong International Airport', code='HKG'), to_airport=Airport(name='Haneda Airport', code='HND'), departure=SimpleDatetime(date=(2026, 11, 25), time=(0, 15)), arrival=SimpleDatetime(date=(2026, 11, 25), time=(5, 0)), duration=225, plane_type='Boeing 787')"
+        ],
+        "carbon": "CarbonEmission(typical_on_route=230000, emission=202000)"
+      },
+      {
+        "type": "NH",
+        "price": 709,
+        "airlines": [
+          "ANA"
+        ],
+        "flights": [
+          "SingleFlight(from_airport=Airport(name='Hong Kong International Airport', code='HKG'), to_airport=Airport(name='Haneda Airport', code='HND'), departure=SimpleDatetime(date=(2026, 11, 25), time=(14, 20)), arrival=SimpleDatetime(date=(2026, 11, 25), time=(19, 15)), duration=235, plane_type='Boeing 767')"
+        ],
+        "carbon": "CarbonEmission(typical_on_route=230000, emission=253000)"
+      },
+      {
+        "type": "JL",
+        "price": 728,
+        "airlines": [
+          "JAL"
+        ],
+        "flights": [
+          "SingleFlight(from_airport=Airport(name='Hong Kong International Airport', code='HKG'), to_airport=Airport(name='Haneda Airport', code='HND'), departure=SimpleDatetime(date=(2026, 11, 25), time=(15, 35)), arrival=SimpleDatetime(date=(2026, 11, 25), time=(20, 25)), duration=230, plane_type='Boeing 787')"
+        ],
+        "carbon": "CarbonEmission(typical_on_route=230000, emission=229000)"
+      },
+      {
+        "type": "CX",
+        "price": 800,
+        "airlines": [
+          "Cathay Pacific"
+        ],
+        "flights": [
+          "SingleFlight(from_airport=Airport(name='Hong Kong International Airport', code='HKG'), to_airport=Airport(name='Haneda Airport', code='HND'), departure=SimpleDatetime(date=(2026, 11, 25), time=(16, 30)), arrival=SimpleDatetime(date=(2026, 11, 25), time=(21, 15)), duration=225, plane_type='Boeing 777')"
+        ],
+        "carbon": "CarbonEmission(typical_on_route=230000, emission=186000)"
+      }
+    ]
+  },
+  {
+    "meta": {
+      "scrape_date": "2026-11-22",
+      "scrape_timestamp": "2026-11-22T21:42:32.381890+08:00",
+      "origin": "HKG",
+      "destination": "HND",
+      "departure_date": "2026-12-22",
+      "days_left": 30,
+      "price_level": null
+    },
+    "raw_flights": [
+      {
+        "type": "BR",
+        "price": 327,
+        "airlines": [
+          "EVA Air"
+        ],
+        "flights": [
+          "SingleFlight(from_airport=Airport(name='Hong Kong International Airport', code='HKG'), to_airport=Airport(name='Taiwan Taoyuan International Airport', code='TPE'), departure=SimpleDatetime(date=(2026, 12, 22), time=(21, 50)), arrival=SimpleDatetime(date=(2026, 12, 22), time=(23, 35)), duration=105, plane_type='Airbus A321')",
+          "SingleFlight(from_airport=Airport(name='Taipei Songshan Airport', code='TSA'), to_airport=Airport(name='Haneda Airport', code='HND'), departure=SimpleDatetime(date=(2026, 12, 23), time=(7, 15)), arrival=SimpleDatetime(date=(2026, 12, 23), time=(11, 0)), duration=165, plane_type='Boeing 787-10')"
+        ],
+        "carbon": "CarbonEmission(typical_on_route=230000, emission=248000)"
+      },
+      {
+        "type": "CZ",
+        "price": 506,
+        "airlines": [
+          "China Southern"
+        ],
+        "flights": [
+          "SingleFlight(from_airport=Airport(name='Hong Kong International Airport', code='HKG'), to_airport=Airport(name='Beijing Daxing International Airport', code='PKX'), departure=SimpleDatetime(date=(2026, 12, 22), time=(14, 5)), arrival=SimpleDatetime(date=(2026, 12, 22), time=(17, 20)), duration=195, plane_type='Airbus A321neo')",
+          "SingleFlight(from_airport=Airport(name='Beijing Daxing International Airport', code='PKX'), to_airport=Airport(name='Haneda Airport', code='HND'), departure=SimpleDatetime(date=(2026, 12, 23), time=(9, 45)), arrival=SimpleDatetime(date=(2026, 12, 23), time=(14, 5)), duration=200, plane_type='Airbus A330')"
+        ],
+        "carbon": "CarbonEmission(typical_on_route=230000, emission=320000)"
+      },
+      {
+        "type": "CX",
+        "price": 800,
+        "airlines": [
+          "Cathay Pacific"
+        ],
+        "flights": [
+          "SingleFlight(from_airport=Airport(name='Hong Kong International Airport', code='HKG'), to_airport=Airport(name='Haneda Airport', code='HND'), departure=SimpleDatetime(date=(2026, 12, 22), time=(16, 30)), arrival=SimpleDatetime(date=(2026, 12, 22), time=(21, 15)), duration=225, plane_type='Boeing 777')"
+        ],
+        "carbon": "CarbonEmission(typical_on_route=230000, emission=185000)"
+      },
+      {
+        "type": "NH",
+        "price": 1406,
+        "airlines": [
+          "ANA"
+        ],
+        "flights": [
+          "SingleFlight(from_airport=Airport(name='Hong Kong International Airport', code='HKG'), to_airport=Airport(name='Haneda Airport', code='HND'), departure=SimpleDatetime(date=(2026, 12, 22), time=(0, 15)), arrival=SimpleDatetime(date=(2026, 12, 22), time=(5, 0)), duration=225, plane_type='Boeing 787')"
+        ],
+        "carbon": "CarbonEmission(typical_on_route=230000, emission=208000)"
+      },
+      {
+        "type": "NH",
+        "price": 1406,
+        "airlines": [
+          "ANA"
+        ],
+        "flights": [
+          "SingleFlight(from_airport=Airport(name='Hong Kong International Airport', code='HKG'), to_airport=Airport(name='Haneda Airport', code='HND'), departure=SimpleDatetime(date=(2026, 12, 22), time=(14, 20)), arrival=SimpleDatetime(date=(2026, 12, 22), time=(19, 15)), duration=235, plane_type='Boeing 767')"
+        ],
+        "carbon": "CarbonEmission(typical_on_route=230000, emission=260000)"
+      }
+    ]
+  },
+  {
+    "meta": {
+      "scrape_date": "2026-11-22",
+      "scrape_timestamp": "2026-11-22T21:42:32.381890+08:00",
+      "origin": "HKG",
+      "destination": "HND",
+      "departure_date": "2027-01-06",
+      "days_left": 45,
+      "price_level": null
+    },
+    "raw_flights": [
+      {
+        "type": "BR",
+        "price": 240,
+        "airlines": [
+          "EVA Air"
+        ],
+        "flights": [
+          "SingleFlight(from_airport=Airport(name='Hong Kong International Airport', code='HKG'), to_airport=Airport(name='Taiwan Taoyuan International Airport', code='TPE'), departure=SimpleDatetime(date=(2027, 1, 6), time=(13, 30)), arrival=SimpleDatetime(date=(2027, 1, 6), time=(15, 20)), duration=110, plane_type='Boeing 787')",
+          "SingleFlight(from_airport=Airport(name='Taipei Songshan Airport', code='TSA'), to_airport=Airport(name='Haneda Airport', code='HND'), departure=SimpleDatetime(date=(2027, 1, 7), time=(7, 15)), arrival=SimpleDatetime(date=(2027, 1, 7), time=(11, 0)), duration=165, plane_type='Boeing 787-10')"
+        ],
+        "carbon": "CarbonEmission(typical_on_route=230000, emission=224000)"
+      },
+      {
+        "type": "multi",
+        "price": 382,
+        "airlines": [
+          "EVA Air",
+          "ANA"
+        ],
+        "flights": [
+          "SingleFlight(from_airport=Airport(name='Hong Kong International Airport', code='HKG'), to_airport=Airport(name='Taiwan Taoyuan International Airport', code='TPE'), departure=SimpleDatetime(date=(2027, 1, 6), time=(11, 20)), arrival=SimpleDatetime(date=(2027, 1, 6), time=(13, 5)), duration=105, plane_type='Airbus A321')",
+          "SingleFlight(from_airport=Airport(name='Taiwan Taoyuan International Airport', code='TPE'), to_airport=Airport(name='Kobe Airport', code='UKB'), departure=SimpleDatetime(date=(2027, 1, 6), time=(14, 30)), arrival=SimpleDatetime(date=(2027, 1, 6), time=(18, 0)), duration=150, plane_type='Airbus A321')",
+          "SingleFlight(from_airport=Airport(name='Kobe Airport', code='UKB'), to_airport=Airport(name='Haneda Airport', code='HND'), departure=SimpleDatetime(date=(2027, 1, 6), time=(21, 20)), arrival=SimpleDatetime(date=(2027, 1, 6), time=(22, 30)), duration=70, plane_type='Airbus A321')"
+        ],
+        "carbon": "CarbonEmission(typical_on_route=230000, emission=386000)"
+      },
+      {
+        "type": "NH",
+        "price": 709,
+        "airlines": [
+          "ANA"
+        ],
+        "flights": [
+          "SingleFlight(from_airport=Airport(name='Hong Kong International Airport', code='HKG'), to_airport=Airport(name='Haneda Airport', code='HND'), departure=SimpleDatetime(date=(2027, 1, 6), time=(0, 15)), arrival=SimpleDatetime(date=(2027, 1, 6), time=(5, 0)), duration=225, plane_type='Boeing 787')"
+        ],
+        "carbon": "CarbonEmission(typical_on_route=230000, emission=209000)"
+      },
+      {
+        "type": "NH",
+        "price": 709,
+        "airlines": [
+          "ANA"
+        ],
+        "flights": [
+          "SingleFlight(from_airport=Airport(name='Hong Kong International Airport', code='HKG'), to_airport=Airport(name='Haneda Airport', code='HND'), departure=SimpleDatetime(date=(2027, 1, 6), time=(14, 20)), arrival=SimpleDatetime(date=(2027, 1, 6), time=(19, 15)), duration=235, plane_type='Boeing 767')"
+        ],
+        "carbon": "CarbonEmission(typical_on_route=230000, emission=261000)"
+      },
+      {
+        "type": "JL",
+        "price": 728,
+        "airlines": [
+          "JAL"
+        ],
+        "flights": [
+          "SingleFlight(from_airport=Airport(name='Hong Kong International Airport', code='HKG'), to_airport=Airport(name='Haneda Airport', code='HND'), departure=SimpleDatetime(date=(2027, 1, 6), time=(15, 35)), arrival=SimpleDatetime(date=(2027, 1, 6), time=(20, 25)), duration=230, plane_type='Boeing 787')"
+        ],
+        "carbon": "CarbonEmission(typical_on_route=230000, emission=236000)"
+      },
+      {
+        "type": "CX",
+        "price": 800,
+        "airlines": [
+          "Cathay Pacific"
+        ],
+        "flights": [
+          "SingleFlight(from_airport=Airport(name='Hong Kong International Airport', code='HKG'), to_airport=Airport(name='Haneda Airport', code='HND'), departure=SimpleDatetime(date=(2027, 1, 6), time=(16, 30)), arrival=SimpleDatetime(date=(2027, 1, 6), time=(21, 15)), duration=225, plane_type='Boeing 777')"
+        ],
+        "carbon": "CarbonEmission(typical_on_route=230000, emission=185000)"
+      },
+      {
+        "type": "CX",
+        "price": 876,
+        "airlines": [
+          "Cathay Pacific"
+        ],
+        "flights": [
+          "SingleFlight(from_airport=Airport(name='Hong Kong International Airport', code='HKG'), to_airport=Airport(name='Haneda Airport', code='HND'), departure=SimpleDatetime(date=(2027, 1, 6), time=(8, 55)), arrival=SimpleDatetime(date=(2027, 1, 6), time=(13, 45)), duration=230, plane_type='Boeing 777')"
+        ],
+        "carbon": "CarbonEmission(typical_on_route=230000, emission=226000)"
+      }
+    ]
+  },
+  {
+    "meta": {
+      "scrape_date": "2026-11-22",
+      "scrape_timestamp": "2026-11-22T21:42:32.381890+08:00",
+      "origin": "HKG",
+      "destination": "CTS",
+      "departure_date": "2026-11-23",
+      "days_left": 1,
+      "price_level": null
+    },
+    "raw_flights": [
+      {
+        "type": "CI",
+        "price": 352,
+        "airlines": [
+          "China Airlines"
+        ],
+        "flights": [
+          "SingleFlight(from_airport=Airport(name='Hong Kong International Airport', code='HKG'), to_airport=Airport(name='Taiwan Taoyuan International Airport', code='TPE'), departure=SimpleDatetime(date=(2026, 11, 23), time=(21, 10)), arrival=SimpleDatetime(date=(2026, 11, 23), time=(22, 55)), duration=105, plane_type='Airbus A350')",
+          "SingleFlight(from_airport=Airport(name='Taiwan Taoyuan International Airport', code='TPE'), to_airport=Airport(name='New Chitose Airport', code='CTS'), departure=SimpleDatetime(date=(2026, 11, 24), time=(8, 35)), arrival=SimpleDatetime(date=(2026, 11, 24), time=(13, 20)), duration=225, plane_type='Boeing 777')"
+        ],
+        "carbon": "CarbonEmission(typical_on_route=316000, emission=358000)"
+      },
+      {
+        "type": "5J",
+        "price": 443,
+        "airlines": [
+          "Cebu Pacific"
+        ],
+        "flights": [
+          "SingleFlight(from_airport=Airport(name='Hong Kong International Airport', code='HKG'), to_airport=Airport(name='Ninoy Aquino International Airport', code='MNL'), departure=SimpleDatetime(date=(2026, 11, 23), time=(19, 15)), arrival=SimpleDatetime(date=(2026, 11, 23), time=(21, 45)), duration=150, plane_type='Airbus A330-900neo')",
+          "SingleFlight(from_airport=Airport(name='Ninoy Aquino International Airport', code='MNL'), to_airport=Airport(name='New Chitose Airport', code='CTS'), departure=SimpleDatetime(date=(2026, 11, 24), time=(10, 35)), arrival=SimpleDatetime(date=(2026, 11, 24), time=(16, 50)), duration=315, plane_type='Airbus A321neo')"
+        ],
+        "carbon": "CarbonEmission(typical_on_route=316000, emission=308000)"
+      },
+      {
+        "type": "5J",
+        "price": 461,
+        "airlines": [
+          "Cebu Pacific"
+        ],
+        "flights": [
+          "SingleFlight(from_airport=Airport(name='Hong Kong International Airport', code='HKG'), to_airport=Airport(name='Ninoy Aquino International Airport', code='MNL'), departure=SimpleDatetime(date=(2026, 11, 23), time=(21, 10)), arrival=SimpleDatetime(date=(2026, 11, 23), time=(23, 35)), duration=145, plane_type='Airbus A320neo')",
+          "SingleFlight(from_airport=Airport(name='Ninoy Aquino International Airport', code='MNL'), to_airport=Airport(name='New Chitose Airport', code='CTS'), departure=SimpleDatetime(date=(2026, 11, 24), time=(10, 35)), arrival=SimpleDatetime(date=(2026, 11, 24), time=(16, 50)), duration=315, plane_type='Airbus A321neo')"
+        ],
+        "carbon": "CarbonEmission(typical_on_route=316000, emission=318000)"
+      },
+      {
+        "type": "NH",
+        "price": 716,
+        "airlines": [
+          "ANA"
+        ],
+        "flights": [
+          "SingleFlight(from_airport=Airport(name='Hong Kong International Airport', code='HKG'), to_airport=Airport(name='Haneda Airport', code='HND'), departure=SimpleDatetime(date=(2026, 11, 23), time=(0, 15)), arrival=SimpleDatetime(date=(2026, 11, 23), time=(5, 0)), duration=225, plane_type='Boeing 787')",
+          "SingleFlight(from_airport=Airport(name='Haneda Airport', code='HND'), to_airport=Airport(name='New Chitose Airport', code='CTS'), departure=SimpleDatetime(date=(2026, 11, 23), time=(6, 30)), arrival=SimpleDatetime(date=(2026, 11, 23), time=(8, 0)), duration=90, plane_type='Boeing 737')"
+        ],
+        "carbon": "CarbonEmission(typical_on_route=316000, emission=304000)"
+      },
+      {
+        "type": "multi",
+        "price": 716,
+        "airlines": [
+          "ANA",
+          "Air Do"
+        ],
+        "flights": [
+          "SingleFlight(from_airport=Airport(name='Hong Kong International Airport', code='HKG'), to_airport=Airport(name='Haneda Airport', code='HND'), departure=SimpleDatetime(date=(2026, 11, 23), time=(0, 15)), arrival=SimpleDatetime(date=(2026, 11, 23), time=(5, 0)), duration=225, plane_type='Boeing 787')",
+          "SingleFlight(from_airport=Airport(name='Haneda Airport', code='HND'), to_airport=Airport(name='New Chitose Airport', code='CTS'), departure=SimpleDatetime(date=(2026, 11, 23), time=(6, 50)), arrival=SimpleDatetime(date=(2026, 11, 23), time=(8, 20)), duration=90, plane_type='Boeing 767')"
+        ],
+        "carbon": "CarbonEmission(typical_on_route=316000, emission=300000)"
+      }
+    ]
+  },
+  {
+    "meta": {
+      "scrape_date": "2026-11-22",
+      "scrape_timestamp": "2026-11-22T21:42:32.381890+08:00",
+      "origin": "HKG",
+      "destination": "CTS",
+      "departure_date": "2026-11-25",
+      "days_left": 3,
+      "price_level": null
+    },
+    "raw_flights": [
+      {
+        "type": "TW",
+        "price": 443,
+        "airlines": [
+          "Trinity Airways"
+        ],
+        "flights": [
+          "SingleFlight(from_airport=Airport(name='Hong Kong International Airport', code='HKG'), to_airport=Airport(name='Incheon International Airport', code='ICN'), departure=SimpleDatetime(date=(2026, 11, 25), time=(13, 45)), arrival=SimpleDatetime(date=(2026, 11, 25), time=(18, 35)), duration=230, plane_type='Boeing 737MAX 8 Passenger')",
+          "SingleFlight(from_airport=Airport(name='Incheon International Airport', code='ICN'), to_airport=Airport(name='New Chitose Airport', code='CTS'), departure=SimpleDatetime(date=(2026, 11, 26), time=(10, 20)), arrival=SimpleDatetime(date=(2026, 11, 26), time=(13, 10)), duration=170, plane_type='Boeing 737MAX 8 Passenger')"
+        ],
+        "carbon": "CarbonEmission(typical_on_route=316000, emission=285000)"
+      },
+      {
+        "type": "NH",
+        "price": 716,
+        "airlines": [
+          "ANA"
+        ],
+        "flights": [
+          "SingleFlight(from_airport=Airport(name='Hong Kong International Airport', code='HKG'), to_airport=Airport(name='Narita International Airport', code='NRT'), departure=SimpleDatetime(date=(2026, 11, 25), time=(10, 0)), arrival=SimpleDatetime(date=(2026, 11, 25), time=(15, 10)), duration=250, plane_type='Boeing 787')",
+          "SingleFlight(from_airport=Airport(name='Narita International Airport', code='NRT'), to_airport=Airport(name='New Chitose Airport', code='CTS'), departure=SimpleDatetime(date=(2026, 11, 25), time=(17, 50)), arrival=SimpleDatetime(date=(2026, 11, 25), time=(19, 40)), duration=110, plane_type='Airbus A321')"
+        ],
+        "carbon": "CarbonEmission(typical_on_route=316000, emission=315000)"
+      },
+      {
+        "type": "NH",
+        "price": 716,
+        "airlines": [
+          "ANA"
+        ],
+        "flights": [
+          "SingleFlight(from_airport=Airport(name='Hong Kong International Airport', code='HKG'), to_airport=Airport(name='Haneda Airport', code='HND'), departure=SimpleDatetime(date=(2026, 11, 25), time=(0, 15)), arrival=SimpleDatetime(date=(2026, 11, 25), time=(5, 0)), duration=225, plane_type='Boeing 787')",
+          "SingleFlight(from_airport=Airport(name='Haneda Airport', code='HND'), to_airport=Airport(name='New Chitose Airport', code='CTS'), departure=SimpleDatetime(date=(2026, 11, 25), time=(6, 30)), arrival=SimpleDatetime(date=(2026, 11, 25), time=(8, 0)), duration=90, plane_type='Boeing 737')"
+        ],
+        "carbon": "CarbonEmission(typical_on_route=316000, emission=304000)"
+      },
+      {
+        "type": "CX",
+        "price": 1345,
+        "airlines": [
+          "Cathay Pacific"
+        ],
+        "flights": [
+          "SingleFlight(from_airport=Airport(name='Hong Kong International Airport', code='HKG'), to_airport=Airport(name='New Chitose Airport', code='CTS'), departure=SimpleDatetime(date=(2026, 11, 25), time=(9, 10)), arrival=SimpleDatetime(date=(2026, 11, 25), time=(14, 50)), duration=280, plane_type='Boeing 777')"
+        ],
+        "carbon": "CarbonEmission(typical_on_route=316000, emission=280000)"
+      },
+      {
+        "type": "HB",
+        "price": 1431,
+        "airlines": [
+          "Greater Bay Airlines"
+        ],
+        "flights": [
+          "SingleFlight(from_airport=Airport(name='Hong Kong International Airport', code='HKG'), to_airport=Airport(name='New Chitose Airport', code='CTS'), departure=SimpleDatetime(date=(2026, 11, 25), time=(9, 15)), arrival=SimpleDatetime(date=(2026, 11, 25), time=(15, 0)), duration=285, plane_type='Boeing 737MAX 9 Passenger')"
+        ],
+        "carbon": "CarbonEmission(typical_on_route=316000, emission=240000)"
+      }
+    ]
+  },
+  {
+    "meta": {
+      "scrape_date": "2026-11-22",
+      "scrape_timestamp": "2026-11-22T21:42:32.381890+08:00",
+      "origin": "HKG",
+      "destination": "CTS",
+      "departure_date": "2026-11-29",
+      "days_left": 7,
+      "price_level": null
+    },
+    "raw_flights": [
+      {
+        "type": "CI",
+        "price": 399,
+        "airlines": [
+          "China Airlines"
+        ],
+        "flights": [
+          "SingleFlight(from_airport=Airport(name='Hong Kong International Airport', code='HKG'), to_airport=Airport(name='Taiwan Taoyuan International Airport', code='TPE'), departure=SimpleDatetime(date=(2026, 11, 29), time=(21, 10)), arrival=SimpleDatetime(date=(2026, 11, 29), time=(22, 55)), duration=105, plane_type='Airbus A321neo')",
+          "SingleFlight(from_airport=Airport(name='Taiwan Taoyuan International Airport', code='TPE'), to_airport=Airport(name='New Chitose Airport', code='CTS'), departure=SimpleDatetime(date=(2026, 11, 30), time=(8, 35)), arrival=SimpleDatetime(date=(2026, 11, 30), time=(13, 20)), duration=225, plane_type='Boeing 777')"
+        ],
+        "carbon": "CarbonEmission(typical_on_route=316000, emission=358000)"
+      },
+      {
+        "type": "TW",
+        "price": 450,
+        "airlines": [
+          "Trinity Airways"
+        ],
+        "flights": [
+          "SingleFlight(from_airport=Airport(name='Hong Kong International Airport', code='HKG'), to_airport=Airport(name='Incheon International Airport', code='ICN'), departure=SimpleDatetime(date=(2026, 11, 29), time=(13, 45)), arrival=SimpleDatetime(date=(2026, 11, 29), time=(18, 35)), duration=230, plane_type='Boeing 737MAX 8 Passenger')",
+          "SingleFlight(from_airport=Airport(name='Incheon International Airport', code='ICN'), to_airport=Airport(name='New Chitose Airport', code='CTS'), departure=SimpleDatetime(date=(2026, 11, 30), time=(10, 20)), arrival=SimpleDatetime(date=(2026, 11, 30), time=(13, 10)), duration=170, plane_type='Boeing 737MAX 8 Passenger')"
+        ],
+        "carbon": "CarbonEmission(typical_on_route=316000, emission=285000)"
+      },
+      {
+        "type": "PR",
+        "price": 470,
+        "airlines": [
+          "Philippine Airlines"
+        ],
+        "flights": [
+          "SingleFlight(from_airport=Airport(name='Hong Kong International Airport', code='HKG'), to_airport=Airport(name='Ninoy Aquino International Airport', code='MNL'), departure=SimpleDatetime(date=(2026, 11, 29), time=(22, 55)), arrival=SimpleDatetime(date=(2026, 11, 30), time=(1, 5)), duration=130, plane_type='Airbus A321')",
+          "SingleFlight(from_airport=Airport(name='Ninoy Aquino International Airport', code='MNL'), to_airport=Airport(name='New Chitose Airport', code='CTS'), departure=SimpleDatetime(date=(2026, 11, 30), time=(6, 35)), arrival=SimpleDatetime(date=(2026, 11, 30), time=(12, 30)), duration=295, plane_type='Airbus A321')"
+        ],
+        "carbon": "CarbonEmission(typical_on_route=316000, emission=503000)"
+      },
+      {
+        "type": "HB",
+        "price": 700,
+        "airlines": [
+          "Greater Bay Airlines"
+        ],
+        "flights": [
+          "SingleFlight(from_airport=Airport(name='Hong Kong International Airport', code='HKG'), to_airport=Airport(name='New Chitose Airport', code='CTS'), departure=SimpleDatetime(date=(2026, 11, 29), time=(9, 15)), arrival=SimpleDatetime(date=(2026, 11, 29), time=(15, 0)), duration=285, plane_type='Boeing 737MAX 9 Passenger')"
+        ],
+        "carbon": "CarbonEmission(typical_on_route=316000, emission=240000)"
+      },
+      {
+        "type": "NH",
+        "price": 716,
+        "airlines": [
+          "ANA"
+        ],
+        "flights": [
+          "SingleFlight(from_airport=Airport(name='Hong Kong International Airport', code='HKG'), to_airport=Airport(name='Haneda Airport', code='HND'), departure=SimpleDatetime(date=(2026, 11, 29), time=(0, 15)), arrival=SimpleDatetime(date=(2026, 11, 29), time=(5, 0)), duration=225, plane_type='Boeing 787')",
+          "SingleFlight(from_airport=Airport(name='Haneda Airport', code='HND'), to_airport=Airport(name='New Chitose Airport', code='CTS'), departure=SimpleDatetime(date=(2026, 11, 29), time=(6, 30)), arrival=SimpleDatetime(date=(2026, 11, 29), time=(8, 0)), duration=90, plane_type='Boeing 737')"
+        ],
+        "carbon": "CarbonEmission(typical_on_route=316000, emission=304000)"
+      },
+      {
+        "type": "CX",
+        "price": 1345,
+        "airlines": [
+          "Cathay Pacific"
+        ],
+        "flights": [
+          "SingleFlight(from_airport=Airport(name='Hong Kong International Airport', code='HKG'), to_airport=Airport(name='New Chitose Airport', code='CTS'), departure=SimpleDatetime(date=(2026, 11, 29), time=(9, 10)), arrival=SimpleDatetime(date=(2026, 11, 29), time=(14, 50)), duration=280, plane_type='Boeing 777')"
+        ],
+        "carbon": "CarbonEmission(typical_on_route=316000, emission=272000)"
+      }
+    ]
+  },
+  {
+    "meta": {
+      "scrape_date": "2026-11-22",
+      "scrape_timestamp": "2026-11-22T21:42:32.381890+08:00",
+      "origin": "HKG",
+      "destination": "CTS",
+      "departure_date": "2026-12-06",
+      "days_left": 14,
+      "price_level": null
+    },
+    "raw_flights": [
+      {
+        "type": "5J",
+        "price": 372,
+        "airlines": [
+          "Cebu Pacific"
+        ],
+        "flights": [
+          "SingleFlight(from_airport=Airport(name='Hong Kong International Airport', code='HKG'), to_airport=Airport(name='Ninoy Aquino International Airport', code='MNL'), departure=SimpleDatetime(date=(2026, 12, 6), time=(21, 10)), arrival=SimpleDatetime(date=(2026, 12, 6), time=(23, 35)), duration=145, plane_type='Airbus A320neo')",
+          "SingleFlight(from_airport=Airport(name='Ninoy Aquino International Airport', code='MNL'), to_airport=Airport(name='New Chitose Airport', code='CTS'), departure=SimpleDatetime(date=(2026, 12, 7), time=(10, 40)), arrival=SimpleDatetime(date=(2026, 12, 7), time=(16, 50)), duration=310, plane_type='Airbus A321neo')"
+        ],
+        "carbon": "CarbonEmission(typical_on_route=316000, emission=319000)"
+      },
+      {
+        "type": "TW",
+        "price": 378,
+        "airlines": [
+          "Trinity Airways"
+        ],
+        "flights": [
+          "SingleFlight(from_airport=Airport(name='Hong Kong International Airport', code='HKG'), to_airport=Airport(name='Incheon International Airport', code='ICN'), departure=SimpleDatetime(date=(2026, 12, 6), time=(13, 45)), arrival=SimpleDatetime(date=(2026, 12, 6), time=(18, 35)), duration=230, plane_type='Boeing 737MAX 8 Passenger')",
+          "SingleFlight(from_airport=Airport(name='Incheon International Airport', code='ICN'), to_airport=Airport(name='New Chitose Airport', code='CTS'), departure=SimpleDatetime(date=(2026, 12, 7), time=(10, 20)), arrival=SimpleDatetime(date=(2026, 12, 7), time=(13, 10)), duration=170, plane_type='Boeing 737MAX 8 Passenger')"
+        ],
+        "carbon": "CarbonEmission(typical_on_route=316000, emission=285000)"
+      },
+      {
+        "type": "PR",
+        "price": 470,
+        "airlines": [
+          "Philippine Airlines"
+        ],
+        "flights": [
+          "SingleFlight(from_airport=Airport(name='Hong Kong International Airport', code='HKG'), to_airport=Airport(name='Ninoy Aquino International Airport', code='MNL'), departure=SimpleDatetime(date=(2026, 12, 6), time=(22, 55)), arrival=SimpleDatetime(date=(2026, 12, 7), time=(1, 5)), duration=130, plane_type='Airbus A321')",
+          "SingleFlight(from_airport=Airport(name='Ninoy Aquino International Airport', code='MNL'), to_airport=Airport(name='New Chitose Airport', code='CTS'), departure=SimpleDatetime(date=(2026, 12, 7), time=(6, 35)), arrival=SimpleDatetime(date=(2026, 12, 7), time=(12, 30)), duration=295, plane_type='Airbus A321')"
+        ],
+        "carbon": "CarbonEmission(typical_on_route=316000, emission=503000)"
+      },
+      {
+        "type": "CX",
+        "price": 1345,
+        "airlines": [
+          "Cathay Pacific"
+        ],
+        "flights": [
+          "SingleFlight(from_airport=Airport(name='Hong Kong International Airport', code='HKG'), to_airport=Airport(name='New Chitose Airport', code='CTS'), departure=SimpleDatetime(date=(2026, 12, 6), time=(9, 10)), arrival=SimpleDatetime(date=(2026, 12, 6), time=(14, 50)), duration=280, plane_type='Boeing 777')"
+        ],
+        "carbon": "CarbonEmission(typical_on_route=316000, emission=270000)"
+      }
+    ]
+  },
+  {
+    "meta": {
+      "scrape_date": "2026-11-22",
+      "scrape_timestamp": "2026-11-22T21:42:32.381890+08:00",
+      "origin": "HKG",
+      "destination": "CTS",
+      "departure_date": "2026-12-13",
+      "days_left": 21,
+      "price_level": null
+    },
+    "raw_flights": [
+      {
+        "type": "BR",
+        "price": 256,
+        "airlines": [
+          "EVA Air"
+        ],
+        "flights": [
+          "SingleFlight(from_airport=Airport(name='Hong Kong International Airport', code='HKG'), to_airport=Airport(name='Taiwan Taoyuan International Airport', code='TPE'), departure=SimpleDatetime(date=(2026, 12, 13), time=(13, 30)), arrival=SimpleDatetime(date=(2026, 12, 13), time=(15, 20)), duration=110, plane_type='Airbus A321')",
+          "SingleFlight(from_airport=Airport(name='Taiwan Taoyuan International Airport', code='TPE'), to_airport=Airport(name='New Chitose Airport', code='CTS'), departure=SimpleDatetime(date=(2026, 12, 14), time=(6, 15)), arrival=SimpleDatetime(date=(2026, 12, 14), time=(11, 0)), duration=225, plane_type='Airbus A321')"
+        ],
+        "carbon": "CarbonEmission(typical_on_route=316000, emission=391000)"
+      },
+      {
+        "type": "BR",
+        "price": 367,
+        "airlines": [
+          "EVA Air"
+        ],
+        "flights": [
+          "SingleFlight(from_airport=Airport(name='Hong Kong International Airport', code='HKG'), to_airport=Airport(name='Taiwan Taoyuan International Airport', code='TPE'), departure=SimpleDatetime(date=(2026, 12, 13), time=(21, 10)), arrival=SimpleDatetime(date=(2026, 12, 13), time=(22, 50)), duration=100, plane_type='Airbus A321')",
+          "SingleFlight(from_airport=Airport(name='Taiwan Taoyuan International Airport', code='TPE'), to_airport=Airport(name='New Chitose Airport', code='CTS'), departure=SimpleDatetime(date=(2026, 12, 14), time=(6, 15)), arrival=SimpleDatetime(date=(2026, 12, 14), time=(11, 0)), duration=225, plane_type='Airbus A321')"
+        ],
+        "carbon": "CarbonEmission(typical_on_route=316000, emission=391000)"
+      },
+      {
+        "type": "TW",
+        "price": 382,
+        "airlines": [
+          "Trinity Airways"
+        ],
+        "flights": [
+          "SingleFlight(from_airport=Airport(name='Hong Kong International Airport', code='HKG'), to_airport=Airport(name='Incheon International Airport', code='ICN'), departure=SimpleDatetime(date=(2026, 12, 13), time=(13, 45)), arrival=SimpleDatetime(date=(2026, 12, 13), time=(18, 35)), duration=230, plane_type='Boeing 737MAX 8 Passenger')",
+          "SingleFlight(from_airport=Airport(name='Incheon International Airport', code='ICN'), to_airport=Airport(name='New Chitose Airport', code='CTS'), departure=SimpleDatetime(date=(2026, 12, 14), time=(10, 20)), arrival=SimpleDatetime(date=(2026, 12, 14), time=(13, 10)), duration=170, plane_type='Boeing 737MAX 8 Passenger')"
+        ],
+        "carbon": "CarbonEmission(typical_on_route=316000, emission=285000)"
+      },
+      {
+        "type": "OZ",
+        "price": 483,
+        "airlines": [
+          "Asiana Airlines"
+        ],
+        "flights": [
+          "SingleFlight(from_airport=Airport(name='Hong Kong International Airport', code='HKG'), to_airport=Airport(name='Incheon International Airport', code='ICN'), departure=SimpleDatetime(date=(2026, 12, 13), time=(0, 15)), arrival=SimpleDatetime(date=(2026, 12, 13), time=(4, 35)), duration=200, plane_type='Airbus A321neo')",
+          "SingleFlight(from_airport=Airport(name='Incheon International Airport', code='ICN'), to_airport=Airport(name='New Chitose Airport', code='CTS'), departure=SimpleDatetime(date=(2026, 12, 13), time=(8, 0)), arrival=SimpleDatetime(date=(2026, 12, 13), time=(10, 45)), duration=165, plane_type='Airbus A330')"
+        ],
+        "carbon": "CarbonEmission(typical_on_route=316000, emission=315000)"
+      },
+      {
+        "type": "HB",
+        "price": 700,
+        "airlines": [
+          "Greater Bay Airlines"
+        ],
+        "flights": [
+          "SingleFlight(from_airport=Airport(name='Hong Kong International Airport', code='HKG'), to_airport=Airport(name='New Chitose Airport', code='CTS'), departure=SimpleDatetime(date=(2026, 12, 13), time=(1, 15)), arrival=SimpleDatetime(date=(2026, 12, 13), time=(7, 0)), duration=285, plane_type='Boeing 737MAX 9 Passenger')"
+        ],
+        "carbon": "CarbonEmission(typical_on_route=316000, emission=240000)"
+      },
+      {
+        "type": "CX",
+        "price": 1402,
+        "airlines": [
+          "Cathay Pacific"
+        ],
+        "flights": [
+          "SingleFlight(from_airport=Airport(name='Hong Kong International Airport', code='HKG'), to_airport=Airport(name='New Chitose Airport', code='CTS'), departure=SimpleDatetime(date=(2026, 12, 13), time=(9, 10)), arrival=SimpleDatetime(date=(2026, 12, 13), time=(14, 50)), duration=280, plane_type='Boeing 777')"
+        ],
+        "carbon": "CarbonEmission(typical_on_route=316000, emission=270000)"
+      }
+    ]
+  }
+]
