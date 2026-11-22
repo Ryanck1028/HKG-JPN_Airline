@@ -1,2 +1,3 @@
 fast-flights
 pandas
+typing-extensions
