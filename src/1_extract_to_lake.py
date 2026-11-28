@@ -23,8 +23,11 @@ DESTINATIONS = [
     "CTS",  # 札幌新千歲 (New Chitose)
     "FUK",  # 福岡 (Fukuoka)
 ]
-LEAD_DAYS = [1] # 提前購票天數 (3天後 ~ 90天後)
-TRIP_DURATIONS = [2]# 日本停留天數 (5日4夜、7日6夜)
+# 前兩週每天抓（觀察臨近起飛跳價）+ 15~45天每3天抓 + 45~90天每5天抓
+LEAD_DAYS = sorted(
+      list(range(3, 15)) + list(range(15, 45, 3)) + list(range(45, 91, 5))
+  )
+TRIP_DURATIONS = [4,6]# 日本停留天數 (5日4夜、7日6夜)
 CURRENCY = "HKD"  # 強制向 Google Flights 請求港幣報價
 
 # 鎖定香港時區 (UTC+8)
